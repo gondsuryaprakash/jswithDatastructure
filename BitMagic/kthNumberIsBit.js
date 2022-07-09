@@ -2,13 +2,11 @@
 Problem : Find Kth bit is set or not 
 */
 
-
 // Method 1 Left Shift: 
-
 function isKthBitIsSet(n,k) {
-    return n&(1<<(k-1)) != 0
+    return ((n&(1<<(k-1))) !== 0)
 }
-
+console.log(isKthBitIsSet(5,3)); 
 /*
 Explaination Method 1: 
 Let n =5, k = 3 
@@ -34,8 +32,9 @@ Now doing And
 // Method 2 Right Shift 
 
 function isKthBitIsSetByRightShift(n,k) {
-    return n >> (k-1) & 1 === 1 
+    return ((n >> (k-1) & 1) === 1) 
 }
+console.log(isKthBitIsSetByRightShift(10,3));
 
 /*
 Explaination Method 2:
@@ -58,14 +57,4 @@ Now doing And
 0000....01
 ----------
 0000....01 ---> 1 ---> return true
-
-
-
-
-
-
-
-
-
-
 */
