@@ -13,3 +13,4 @@ function isPalindrom(str) {
 
 
 console.log(isPalindrom("suryayrus"));
+

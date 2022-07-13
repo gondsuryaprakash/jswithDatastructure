@@ -61,9 +61,62 @@ git stash apply stash{0}
 
 ```
 
+## Git Add 
+
+```
+ git add . 
+
+```
+
 ## Git Commit
 
 ```
 git commit -m "Good Commit"
 
+```
+ 
+## Git Push 
+First Time 
+```
+git push origin -u "Branch Name"
+
+```
+## Git Pull 
+
+```
+git pull 
+
+```
+
+## Git Rebase                                                 
+
+
+```
+git rebase branch
+
+```
+# NPM Commond 
+
+To check the Process 
+```
+ sudo lsof -i: {Port Number}
+
+```
+
+To Kill 
+``` 
+kill -9 {Process Id}
+
+```
+
+To Set Any Project in JS
+
+```
+npm install 
+```
+
+To Open Terminal In VS Code 
+ 
+```
+ ctrl + Shift + `
 ```
