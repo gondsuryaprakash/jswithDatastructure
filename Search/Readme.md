@@ -1,5 +1,5 @@
 # Binary Search 
-Binary search uses recusrion function call 
+Binary search uses recursion function call 
 
 ## Binaray Search Algorithm
 
